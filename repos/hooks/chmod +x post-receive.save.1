@@ -1,0 +1,13 @@
+#!/bin/bash -l
+GIT_REPO=$HOME/repos/pokemongoaplha
+TMP_GIT_CLONE=$HOME/tmp/git/pokemongoaplha
+PUBLIC_WWW=/var/www/pogomapsworldwide
+
+git clone $GIT_REPO $TMP_GIT_CLONE
+jekyll build --source $TMP_GIT_CLONE --destination $PUBLIC_WWW
+rm -Rf $TMP_GIT_CLONE
+exit
+
+
+
+

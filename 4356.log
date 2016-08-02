@@ -1,0 +1,683 @@
+##############################################################
+# Welcome to the Official ZPanelX Installer for Ubuntu 12.04 #
+#                                                            #
+# Please make sure your VPS provider hasn't pre-installed    #
+# any packages required by ZPanelX.                          #
+#                                                            #
+# If you are installing on a physical machine where the OS   #
+# has been installed by yourself please make sure you only   #
+# installed Ubuntu and no extra packages.                    #
+#                                                            #
+# If you selected additional options during the Ubuntu       #
+# install please consider reinstalling with no               #
+# additional options.                                        #
+#                                                            #
+# Help for this installation script can be obtained on the   #
+# official ZPanelCP forums (http://forums.zpanelcp.com)      #
+#                                                            #
+# All bugs should be reported to http://bugs.zpanelcp.com    #
+# Licensed Under the GPL which can be found here:            #
+# (http://www.gnu.org/licenses/gpl.html)                     #
+#                                                            #
+# Owner : Kevin Andrews (kevin@zvps.co.uk)                   #
+# Current maintainer : Kevin Andrews (kevin@zvps.co.uk)      #
+# Version 3.0.0                                              #
+#                                                            #
+##############################################################
+To contine please agree to the GPL license (y/n/q)? t[Ky
+Find your timezone from : http://php.net/manual/en/timezones.php e.g Europe/London
+Enter Your Time Zone: Europe/London
+Enter the FQDN of the server (example: zpanel.yourdomain.com): Pogo
+Enter the Public (external) IP of the server: 162.243.175.183
+ZPanel will now install, are you sure (y/n/q)? y
+##########################################
+# Creating log of all installed packages #
+##########################################
+Linux Pogo 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+162.243.175.183
+
+accountsservice					install
+acl						install
+acpid						install
+adduser						install
+apache2						install
+apache2-bin					install
+apache2-data					install
+apache2-utils					install
+apparmor					deinstall
+apport						install
+apport-symptoms					install
+apt						install
+apt-transport-https				install
+apt-utils					install
+arping						install
+at						install
+base-files					install
+base-passwd					install
+bash						install
+bash-completion					install
+bcache-tools					install
+bind9-host					install
+bsdmainutils					install
+bsdutils					install
+btrfs-tools					install
+busybox-initramfs				install
+busybox-static					install
+byobu						install
+bzip2						install
+ca-certificates					install
+cloud-guest-utils				install
+cloud-init					install
+cloud-initramfs-copymods			install
+cloud-initramfs-dyn-netconf			install
+cloud-initramfs-growroot			install
+command-not-found				install
+command-not-found-data				install
+console-setup					install
+console-setup-linux				install
+coreutils					install
+cpio						install
+cron						install
+cryptsetup					install
+cryptsetup-bin					install
+curl						install
+dash						install
+dbus						install
+debconf						install
+debconf-i18n					install
+debconf-utils					install
+debianutils					install
+dh-python					install
+dictionaries-common				install
+diffutils					install
+discover					install
+discover-data					install
+distro-info-data				install
+dmeventd					install
+dmidecode					install
+dmsetup						install
+dns-root-data					install
+dnsmasq-base					install
+dnsutils					install
+dosfstools					install
+dpkg						install
+e2fslibs:amd64					install
+e2fsprogs					install
+eatmydata					install
+ed						install
+eject						install
+emacsen-common					install
+ethtool						install
+file						install
+findutils					install
+fonts-ubuntu-font-family-console		install
+friendly-recovery				install
+ftp						install
+fuse						install
+gawk						install
+gcc-5-base:amd64				install
+gcc-6-base:amd64				install
+gdisk						install
+geoip-database					install
+gettext-base					install
+gir1.2-glib-2.0:amd64				install
+git						install
+git-man						install
+gnupg						install
+gpgv						install
+grep						install
+groff-base					install
+grub-common					install
+grub-gfxpayload-lists				install
+grub-pc						install
+grub-pc-bin					install
+grub2-common					install
+gzip						install
+hdparm						install
+hostname					install
+ifenslave					install
+ifupdown					install
+info						install
+init						install
+init-system-helpers				install
+initramfs-tools					install
+initramfs-tools-bin				install
+initramfs-tools-core				install
+initscripts					install
+insserv						install
+install-info					install
+installation-report				install
+iproute2					install
+iptables					install
+iputils-ping					install
+iputils-tracepath				install
+irqbalance					install
+isc-dhcp-client					install
+isc-dhcp-common					install
+iso-codes					install
+kbd						install
+keyboard-configuration				install
+klibc-utils					install
+kmod						install
+krb5-locales					install
+language-pack-en				install
+language-pack-en-base				install
+language-pack-gnome-en				install
+language-pack-gnome-en-base			install
+language-selector-common			install
+laptop-detect					install
+less						install
+libaccountsservice0:amd64			install
+libacl1:amd64					install
+libapparmor-perl				install
+libapparmor1:amd64				install
+libapr1:amd64					install
+libaprutil1:amd64				install
+libaprutil1-dbd-sqlite3:amd64			install
+libaprutil1-ldap:amd64				install
+libapt-inst2.0:amd64				install
+libapt-pkg5.0:amd64				install
+libasn1-8-heimdal:amd64				install
+libasprintf0v5:amd64				install
+libatm1:amd64					install
+libattr1:amd64					install
+libaudit-common					install
+libaudit1:amd64					install
+libbind9-140:amd64				install
+libblkid1:amd64					install
+libbsd0:amd64					install
+libbz2-1.0:amd64				install
+libc-bin					install
+libc6:amd64					install
+libcap-ng0:amd64				install
+libcap2:amd64					install
+libcap2-bin					install
+libcomerr2:amd64				install
+libcryptsetup4:amd64				install
+libcurl3-gnutls:amd64				install
+libdb5.3:amd64					install
+libdbus-1-3:amd64				install
+libdbus-glib-1-2:amd64				install
+libdebconfclient0:amd64				install
+libdevmapper-event1.02.1:amd64			install
+libdevmapper1.02.1:amd64			install
+libdiscover2					install
+libdns-export162				install
+libdns162:amd64					install
+libdrm2:amd64					install
+libdumbnet1:amd64				install
+libeatmydata1:amd64				install
+libedit2:amd64					install
+libelf1:amd64					install
+liberror-perl					install
+libestr0					install
+libevent-2.0-5:amd64				install
+libexpat1:amd64					install
+libfdisk1:amd64					install
+libffi6:amd64					install
+libfreetype6:amd64				install
+libfribidi0:amd64				install
+libfuse2:amd64					install
+libgcc1:amd64					install
+libgcrypt20:amd64				install
+libgdbm3:amd64					install
+libgeoip1:amd64					install
+libgirepository-1.0-1:amd64			install
+libglib2.0-0:amd64				install
+libglib2.0-data					install
+libgmp10:amd64					install
+libgnutls-openssl27:amd64			install
+libgnutls30:amd64				install
+libgpg-error0:amd64				install
+libgpm2:amd64					install
+libgssapi-krb5-2:amd64				install
+libgssapi3-heimdal:amd64			install
+libhcrypto4-heimdal:amd64			install
+libheimbase1-heimdal:amd64			install
+libheimntlm0-heimdal:amd64			install
+libhogweed4:amd64				install
+libhx509-5-heimdal:amd64			install
+libicu55:amd64					install
+libidn11:amd64					install
+libisc-export160				install
+libisc160:amd64					install
+libisccc140:amd64				install
+libisccfg140:amd64				install
+libjson-c2:amd64				install
+libk5crypto3:amd64				install
+libkeyutils1:amd64				install
+libklibc					install
+libkmod2:amd64					install
+libkrb5-26-heimdal:amd64			install
+libkrb5-3:amd64					install
+libkrb5support0:amd64				install
+libldap-2.4-2:amd64				install
+liblocale-gettext-perl				install
+liblua5.1-0:amd64				install
+liblvm2app2.2:amd64				install
+liblvm2cmd2.02:amd64				install
+liblwres141:amd64				install
+liblz4-1:amd64					install
+liblzma5:amd64					install
+liblzo2-2:amd64					install
+libmagic1:amd64					install
+libmnl0:amd64					install
+libmount1:amd64					install
+libmpdec2:amd64					install
+libmpfr4:amd64					install
+libmspack0:amd64				install
+libncurses5:amd64				install
+libncursesw5:amd64				install
+libnet1:amd64					install
+libnetfilter-conntrack3:amd64			install
+libnettle6:amd64				install
+libnewt0.52:amd64				install
+libnfnetlink0:amd64				install
+libnih1:amd64					install
+libnss-myhostname:amd64				install
+libnuma1:amd64					install
+libp11-kit0:amd64				install
+libpam-modules:amd64				install
+libpam-modules-bin				install
+libpam-runtime					install
+libpam-systemd:amd64				install
+libpam0g:amd64					install
+libparted2:amd64				install
+libpcap0.8:amd64				install
+libpci3:amd64					install
+libpcre3:amd64					install
+libperl5.22:amd64				install
+libpipeline1:amd64				install
+libplymouth4:amd64				install
+libpng12-0:amd64				install
+libpolkit-agent-1-0:amd64			install
+libpolkit-backend-1-0:amd64			install
+libpolkit-gobject-1-0:amd64			install
+libpopt0:amd64					install
+libprocps4:amd64				install
+libpython3-stdlib:amd64				install
+libpython3.5:amd64				install
+libpython3.5-minimal:amd64			install
+libpython3.5-stdlib:amd64			install
+libreadline5:amd64				install
+libreadline6:amd64				install
+libroken18-heimdal:amd64			install
+librtmp1:amd64					install
+libsasl2-2:amd64				install
+libsasl2-modules:amd64				install
+libsasl2-modules-db:amd64			install
+libseccomp2:amd64				install
+libselinux1:amd64				install
+libsemanage-common				install
+libsemanage1:amd64				install
+libsepol1:amd64					install
+libsigsegv2:amd64				install
+libslang2:amd64					install
+libsmartcols1:amd64				install
+libsqlite3-0:amd64				install
+libss2:amd64					install
+libssl1.0.0:amd64				install
+libstdc++6:amd64				install
+libsystemd0:amd64				install
+libtasn1-6:amd64				install
+libtext-charwidth-perl				install
+libtext-iconv-perl				install
+libtext-wrapi18n-perl				install
+libtinfo5:amd64					install
+libudev1:amd64					install
+libusb-0.1-4:amd64				install
+libusb-1.0-0:amd64				install
+libustr-1.0-1:amd64				install
+libutempter0:amd64				install
+libuuid1:amd64					install
+libwind0-heimdal:amd64				install
+libwrap0:amd64					install
+libx11-6:amd64					install
+libx11-data					install
+libxau6:amd64					install
+libxcb1:amd64					install
+libxdmcp6:amd64					install
+libxext6:amd64					install
+libxml2:amd64					install
+libxmuu1:amd64					install
+libxtables11:amd64				install
+libyaml-0-2:amd64				install
+linux-base					install
+linux-headers-4.4.0-31				install
+linux-headers-4.4.0-31-generic			install
+linux-headers-generic				install
+linux-headers-virtual				install
+linux-headers-virtual-lts-xenial		install
+linux-image-4.4.0-31-generic			install
+linux-image-virtual				install
+linux-virtual					install
+linux-virtual-lts-xenial			install
+locales						install
+login						install
+logrotate					install
+lsb-base					install
+lsb-release					install
+lshw						install
+lsof						install
+ltrace						install
+lvm2						install
+lxc-common					deinstall
+lxcfs						install
+lxd						deinstall
+lxd-client					install
+make						install
+makedev						install
+man-db						install
+manpages					install
+mawk						install
+mdadm						install
+mime-support					install
+mlocate						install
+mount						install
+mtr-tiny					install
+multiarch-support				install
+nano						install
+ncurses-base					install
+ncurses-bin					install
+ncurses-term					install
+net-tools					install
+netbase						install
+netcat-openbsd					install
+ntfs-3g						install
+open-iscsi					install
+openssh-client					install
+openssh-server					install
+openssh-sftp-server				install
+openssl						install
+os-prober					install
+overlayroot					install
+parted						install
+passwd						install
+pastebinit					install
+patch						install
+pciutils					install
+perl						install
+perl-base					install
+perl-modules-5.22				install
+plymouth					install
+plymouth-theme-ubuntu-text			install
+policykit-1					install
+pollinate					install
+popularity-contest				install
+powermgmt-base					install
+procps						install
+psmisc						install
+python-apt-common				install
+python3						install
+python3-apport					install
+python3-apt					install
+python3-blinker					install
+python3-cffi-backend				install
+python3-chardet					install
+python3-commandnotfound				install
+python3-configobj				install
+python3-cryptography				install
+python3-dbus					install
+python3-debian					install
+python3-distupgrade				install
+python3-gdbm:amd64				install
+python3-gi					install
+python3-idna					install
+python3-jinja2					install
+python3-json-pointer				install
+python3-jsonpatch				install
+python3-jwt					install
+python3-markupsafe				install
+python3-minimal					install
+python3-newt					install
+python3-oauthlib				install
+python3-pkg-resources				install
+python3-prettytable				install
+python3-problem-report				install
+python3-pyasn1					install
+python3-pycurl					install
+python3-requests				install
+python3-serial					install
+python3-six					install
+python3-software-properties			install
+python3-systemd					install
+python3-update-manager				install
+python3-urllib3					install
+python3-yaml					install
+python3.5					install
+python3.5-minimal				install
+readline-common					install
+rename						install
+resolvconf					install
+rsync						install
+rsyslog						install
+run-one						install
+screen						install
+sed						install
+sensible-utils					install
+sgml-base					install
+shared-mime-info				install
+snapd						deinstall
+software-properties-common			install
+sosreport					install
+squashfs-tools					install
+ssh-import-id					install
+ssl-cert					install
+strace						install
+sudo						install
+systemd						install
+systemd-sysv					install
+sysv-rc						install
+sysvinit-utils					install
+tar						install
+tasksel						install
+tasksel-data					install
+tcpd						install
+tcpdump						install
+telnet						install
+time						install
+tmux						install
+tzdata						install
+ubuntu-cloudimage-keyring			install
+ubuntu-core-launcher				deinstall
+ubuntu-keyring					install
+ubuntu-minimal					install
+ubuntu-release-upgrader-core			install
+ubuntu-standard					install
+ucf						install
+udev						install
+ufw						install
+uidmap						install
+unattended-upgrades				install
+unzip						install
+update-manager-core				install
+update-notifier-common				install
+ureadahead					install
+usbutils					install
+util-linux					install
+uuid-runtime					install
+vim						install
+vim-common					install
+vim-runtime					install
+vim-tiny					install
+vlan						install
+wamerican					install
+wbritish					install
+wget						install
+whiptail					install
+xauth						install
+xdg-user-dirs					install
+xfsprogs					install
+xkb-data					install
+xml-core					install
+xz-utils					install
+zerofree					install
+zip						install
+zlib1g:amd64					install
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.7.4-0ubuntu1).
+make is already the newest version (4.1-6).
+unzip is already the newest version (6.0-20ubuntu1).
+zip is already the newest version (3.0-11).
+debconf-utils is already the newest version (1.5.58ubuntu1).
+sudo is already the newest version (1.8.16-0ubuntu1.1).
+vim is already the newest version (2:7.4.1689-3ubuntu1.1).
+wget is already the newest version (1.17.1-1ubuntu1.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list:63
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:61 and /etc/apt/sources.list:66
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:59 and /etc/apt/sources.list:64
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:62 and /etc/apt/sources.list:67
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:60 and /etc/apt/sources.list:65
+Cloning into 'zpanelx'...
+Note: checking out '10.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c2d9435... Adding removal of getdownload.php to ensure that if users who upgrade from 10.0.2 to 10.1.0 and didn't follow our manual patch advice this is now automatically taken care of during the upgrade.
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list:63
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:61 and /etc/apt/sources.list:66
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:59 and /etc/apt/sources.list:64
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:62 and /etc/apt/sources.list:67
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:60 and /etc/apt/sources.list:65
+W: http://security.ubuntu.com/ubuntu/dists/precise-security/InRelease: Signature by key 630239CC130E1A7FD81A27B140976EAF437D05B5 uses weak digest algorithm (SHA1)
+W: http://archive.ubuntu.com/ubuntu/dists/precise-updates/InRelease: Signature by key 630239CC130E1A7FD81A27B140976EAF437D05B5 uses weak digest algorithm (SHA1)
+W: http://archive.ubuntu.com/ubuntu/dists/precise/Release.gpg: Signature by key 630239CC130E1A7FD81A27B140976EAF437D05B5 uses weak digest algorithm (SHA1)
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list:63
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:61 and /etc/apt/sources.list:66
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:59 and /etc/apt/sources.list:64
+W: Target Sources (universe/source/Sources) is configured multiple times in /etc/apt/sources.list:62 and /etc/apt/sources.list:67
+W: Target Sources (main/source/Sources) is configured multiple times in /etc/apt/sources.list:60 and /etc/apt/sources.list:65
+E: Package 'libapache2-mod-php5' has no installation candidate
+E: Package 'php5-common' has no installation candidate
+E: Unable to locate package php5-suhosin
+E: Package 'php5-cli' has no installation candidate
+E: Package 'php5-mysql' has no installation candidate
+E: Package 'php5-gd' has no installation candidate
+E: Package 'php5-mcrypt' has no installation candidate
+E: Unable to locate package php5-curl
+E: Unable to locate package php5-imap
+E: Unable to locate package php5-xmlrpc
+E: Unable to locate package php5-xsl
+E: Unable to locate package db4.7-util
+E: Couldn't find any package by glob 'db4.7-util'
+E: Couldn't find any package by regex 'db4.7-util'
+mkdir: cannot create directory ‘/etc/zpanel’: File exists
+mkdir: cannot create directory ‘/etc/zpanel/configs’: File exists
+mkdir: cannot create directory ‘/etc/zpanel/panel’: File exists
+mkdir: cannot create directory ‘/etc/zpanel/docs’: File exists
+mkdir: cannot create directory ‘/var/zpanel’: File exists
+mkdir: cannot create directory ‘/var/zpanel/hostdata’: File exists
+mkdir: cannot create directory ‘/var/zpanel/hostdata/zadmin’: File exists
+mkdir: cannot create directory ‘/var/zpanel/hostdata/zadmin/public_html’: File exists
+mkdir: cannot create directory ‘/var/zpanel/logs’: File exists
+mkdir: cannot create directory ‘/var/zpanel/logs/proftpd’: File exists
+mkdir: cannot create directory ‘/var/zpanel/backups’: File exists
+mkdir: cannot create directory ‘/var/zpanel/temp’: File exists
+ln: failed to create symbolic link '/usr/bin/zppy': File exists
+ln: failed to create symbolic link '/usr/bin/setso': File exists
+ln: failed to create symbolic link '/usr/bin/setzadmin': File exists
+./installer-10-1-0-ubuntu-64.sh.x: line 168: cc: command not found
+chown: cannot access '/etc/zpanel/panel/bin/zsudo': No such file or directory
+chmod: cannot access '/etc/zpanel/panel/bin/zsudo': No such file or directory
+Failed to start mysql.service: Unit mysql.service not found.
+./installer-10-1-0-ubuntu-64.sh.x: line 174: mysqladmin: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 175: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 176: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 177: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 178: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 179: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 180: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 181: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: line 182: mysql: command not found
+./installer-10-1-0-ubuntu-64.sh.x: /usr/bin/setzadmin: /usr/bin/php: bad interpreter: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: /etc/zpanel/panel/bin/setso: /usr/bin/php: bad interpreter: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: /etc/zpanel/panel/bin/setso: /usr/bin/php: bad interpreter: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: /etc/zpanel/panel/bin/setso: /usr/bin/php: bad interpreter: No such file or directory
+mkdir: cannot create directory ‘/var/zpanel/vmail’: File exists
+useradd: user 'vmail' already exists
+useradd: user 'vacation' already exists
+ln: failed to create symbolic link '/var/spool/vacation/vacation.pl': File exists
+./installer-10-1-0-ubuntu-64.sh.x: line 207: postmap: command not found
+sed: can't read /etc/postfix/main.cf: No such file or directory
+sed: can't read /etc/postfix/main.cf: No such file or directory
+ln: failed to create symbolic link '/etc/postfix/master.cf': No such file or directory
+ln: failed to create symbolic link '/etc/postfix/main.cf': No such file or directory
+ln: failed to create symbolic link '/var/zpanel/sieve/globalfilter.sieve': File exists
+ln: failed to create symbolic link '/etc/dovecot/dovecot.conf': No such file or directory
+sed: can't read /etc/dovecot/dovecot.conf: No such file or directory
+groupadd: group 'ftpgroup' already exists
+useradd: user 'ftpuser' already exists
+touch: cannot touch '/etc/proftpd/proftpd.conf': No such file or directory
+grep: /etc/proftpd/proftpd.conf: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: line 245: /etc/proftpd/proftpd.conf: No such file or directory
+mkdir: cannot create directory ‘/var/zpanel/logs/proftpd’: File exists
+sed: can't read /etc/php5/cli/php.ini: No such file or directory
+sed: can't read /etc/php5/apache2/php.ini: No such file or directory
+sed: can't read /etc/php5/cli/php.ini: No such file or directory
+sed: can't read /etc/php5/apache2/php.ini: No such file or directory
+Enabling module rewrite.
+To activate the new configuration, you need to run:
+  service apache2 restart
+Job for apache2.service failed because the control process exited with error code. See "systemctl status apache2.service" and "journalctl -xe" for details.
+mkdir: cannot create directory ‘/var/zpanel/logs/bind’: File exists
+chown: cannot access '/etc/bind/rndc.key': No such file or directory
+chown: invalid user: ‘bind:bind’
+chmod: cannot access '/etc/bind/rndc.key': No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: line 284: rndc-confgen: command not found
+ln: failed to create symbolic link '/etc/bind/named.conf': No such file or directory
+ln: failed to create symbolic link '/etc/bind/rndc.conf': No such file or directory
+grep: /etc/bind/named.conf: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: line 287: /etc/bind/named.conf: No such file or directory
+ln: failed to create symbolic link '/usr/bin/named-checkconf': File exists
+ln: failed to create symbolic link '/usr/bin/named-checkzone': File exists
+ln: failed to create symbolic link '/usr/bin/named-compilezone': File exists
+./installer-10-1-0-ubuntu-64.sh.x: line 291: /etc/bind/named.conf.new: No such file or directory
+cat: /etc/bind/rndc.key: No such file or directory
+./installer-10-1-0-ubuntu-64.sh.x: line 292: /etc/bind/rndc.conf.new: No such file or directory
+cat: /etc/bind/rndc.key: No such file or directory
+chmod: cannot access '/etc/zpanel/panel/modules/webalizer_stats/stats/': No such file or directory
+ln: failed to create symbolic link '/etc/zpanel/panel/etc/apps/webmail/plugins/managesieve/config.inc.php': File exists
+ln: failed to create symbolic link '/etc/zpanel/panel/etc/apps/webmail/config/db.inc.php': File exists
+Job for apache2.service failed because the control process exited with error code. See "systemctl status apache2.service" and "journalctl -xe" for details.
+Failed to restart postfix.service: Unit postfix.service not found.
+Failed to start dovecot.service: Unit dovecot.service not found.
+ * Reloading configuration files for periodic command scheduler cron
+   ...done.
+Failed to start mysql.service: Unit mysql.service not found.
+Failed to start bind9.service: Unit bind9.service not found.
+Failed to start proftpd.service: Unit proftpd.service not found.
+./installer-10-1-0-ubuntu-64.sh.x: line 334: php: command not found
+##############################################################
+# Congratulations ZpanelX has now been installed on your     #
+# server. Review the log file left in /root/ for             #
+# any errors encountered during installation.                #
+#                                                            #
+# Save the following information somewhere safe:             #
+# MySQL Root Password    : M4FFxslqyl63MIfx
+# MySQL Postfix Password : iVKu6vYwonTnjdEI
+# ZPanelX Username       : zadmin                            #
+# ZPanelX Password       : eVb7A5g3yfz8SkxR
+#                                                            #
+# ZPanelX Web login can be accessed using your server IP     #
+# inside any http web browser.                               #
+#                                                            #
+# REPORT ZPANEL INSTALLATION BUGS AND ZPANEL CORE BUGS TO:   #
+# (http://bugs.zpanelcp.com)                                 #
+#                                                            #
+# This installer has been thoroughly tested on               #
+# (http://www.zvps.co.uk) zVPS servers. However it is not    #
+# possible to guarantee the compatibility of other VPS       #
+# provider Operating System templates of Ubuntu 12.04        #
+#                                                            #
+##############################################################

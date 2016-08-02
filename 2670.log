@@ -1,0 +1,33 @@
+##############################################################
+# Welcome to the Official ZPanelX Installer for Ubuntu 12.04 #
+#                                                            #
+# Please make sure your VPS provider hasn't pre-installed    #
+# any packages required by ZPanelX.                          #
+#                                                            #
+# If you are installing on a physical machine where the OS   #
+# has been installed by yourself please make sure you only   #
+# installed Ubuntu and no extra packages.                    #
+#                                                            #
+# If you selected additional options during the Ubuntu       #
+# install please consider reinstalling with no               #
+# additional options.                                        #
+#                                                            #
+# Help for this installation script can be obtained on the   #
+# official ZPanelCP forums (http://forums.zpanelcp.com)      #
+#                                                            #
+# All bugs should be reported to http://bugs.zpanelcp.com    #
+# Licensed Under the GPL which can be found here:            #
+# (http://www.gnu.org/licenses/gpl.html)                     #
+#                                                            #
+# Owner : Kevin Andrews (kevin@zvps.co.uk)                   #
+# Current maintainer : Kevin Andrews (kevin@zvps.co.uk)      #
+# Version 3.0.0                                              #
+#                                                            #
+##############################################################
+To contine please agree to the GPL license (y/n/q)? y
+Find your timezone from : http://php.net/manual/en/timezones.php e.g Europe/London
+Enter Your Time Zone: Europe/London[Kn[K[K[K[K[K[K[K[K[K[K[K[K[KWEllington[K[K[K[K[K[K[K[K[Kellington/Nz
+Enter the FQDN of the server (example: zpanel.yourdomain.com): Pogo[K[K[K[Kpokegomaps.com
+Enter the Public (external) IP of the server: 162.243.175.183
+ZPanel will now install, are you sure (y/n/q)? y
+Please restart the server and run the installer again. AppArmor was removed.
